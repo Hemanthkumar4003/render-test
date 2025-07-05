@@ -12,4 +12,9 @@ public class SampleController {
     public String test() {
         return "Render Test Successfully Running..............";
     }
+
+    @GetMapping(value = "/test2")
+    public String test2() {
+        return "Render Test V2 Successfully Running..............";
+    }
 }
